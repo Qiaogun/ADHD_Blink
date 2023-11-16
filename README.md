@@ -28,7 +28,7 @@ This project was inspired by a [Hacker News post](https://news.ycombinator.com/i
 
 ## Installation
 
-[M5StickC Plus quick_start](https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino)
+[M5StickC Plus Quick Start](https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino)
 1. Clone this repository to your local machine.
 2. Open the project in Arduino IDE.
 3. Install necessary libraries (details provided in the `Libraries` section).
