@@ -2,7 +2,7 @@
 
 enum Mode {
   BPM120,
-  BPM80,
+  BPM85,
   BPM70,
   PAUSE,
   NUM_MODES
@@ -20,10 +20,11 @@ void setup() {
   M5.Lcd.setRotation(3);
   M5.Lcd.fillScreen(BLACK);
   M5.Lcd.setTextColor(WHITE);
-  M5.Lcd.setTextSize(5);
+  M5.Lcd.setTextSize(4);
 }
 
 void displayNumber(int num) {
+  M5.Axp.ScreenBreath(15);
   M5.Lcd.fillScreen(BLACK);
   M5.Lcd.setCursor((135 - M5.Lcd.textWidth(String(num))) / 2, 20);
   M5.Lcd.printf("BPM: %d", num);
@@ -57,7 +58,7 @@ void loop() {
     currentMode = static_cast<Mode>((currentMode + 1) % NUM_MODES);
     switch(currentMode) {
       case BPM120: currentBPM = 120; break;
-      case BPM80:  currentBPM = 80; break;
+      case BPM85:  currentBPM = 85; break;
       case BPM70:  currentBPM = 70; break;
       case PAUSE:  break;
     }
