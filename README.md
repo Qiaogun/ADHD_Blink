@@ -1,4 +1,6 @@
 # ADHD Focused Blinking Light - ESP32/M5StickC Plus
+<img width="450" alt="image" src="https://github.com/Qiaogun/ADHD_Blink/assets/16176906/e37539ad-bf64-4260-8c79-d1f464272ccf">
+
 ## Description
 This project is a heart rate simulator developed for the ESP32 and M5StickC Plus platforms. It is designed to mimic the rhythm of a human heartbeat using an LED. The simulation starts with a heartbeat rate of 120, 85, 70 beats per minute (BPM), representing a faster heartbeat, and gradually slows down to a resting rate of 65 BPM. This project can be used for relaxation assistance, psychological experiments, educational purposes, or simply as a technology demonstration.
 # ADHD Focused Blinking Light - ESP32/M5StickC Plus Project
@@ -46,3 +48,6 @@ This project was inspired by a [Hacker News post](https://news.ycombinator.com/i
 ## License
 
 see the LICENSE.md file for details.
+
+
+
